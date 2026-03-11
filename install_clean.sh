@@ -329,10 +329,16 @@ if [[ ! -f /etc/apex/repos.d/example.repo ]]; then
 # Verify  = yes
 
 [core]
-Url     = https://repo.apex-pkg.org/core/$arch
+Url     = https://p1rater.github.io/apex-repo/core/$arch
+Enabled = yes
+Verify  = no
+
+[extra]
+Url     = https://p1rater.github.io/apex-repo/extra/$arch
 Enabled = no
-Verify  = yes
+Verify  = no
 REPO_EOF
+    ok "Repo configuration set to p1rater.github.io"
 fi
 
 # Permissions
