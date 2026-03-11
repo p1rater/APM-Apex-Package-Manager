@@ -8,7 +8,7 @@
 
 ---
 
-## 🎨 Terminal Banner
+## 🎨 ASCII Art
 
 ```text
   ██████╗ ██████╗ ███████╗██╗  ██╗
